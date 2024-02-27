@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+
+# Next.js build output
+.next/
+
+# Compiled files
+*.log
+*.pem
+
+# Dependency directories
+/.pnp
+/.pnp.js
+
+# Testing
+/coverage/
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build cache
+/.next/cache/
+.env
+.vercel
