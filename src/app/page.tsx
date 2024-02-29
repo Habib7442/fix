@@ -11,6 +11,7 @@ import {
 } from "@/lib/reducers/productReducer";
 import Footer from "../components/Footer";
 import { FiLoader } from "react-icons/fi";
+import Loader from "@/components/Loader";
 
 export default function Home() {
   FetchData();
@@ -46,7 +47,7 @@ export default function Home() {
     <>
       {isLoading ? (
         <div className="w-full h-[100vh] flex justify-center items-center">
-          <FiLoader className="w-[50px] h-[50px]" />
+          <Loader />
         </div>
       ) : (
         <div className="w-full flex flex-col justify-center items-center">
